@@ -1,0 +1,23 @@
+﻿生成启动时间为 2019/8/7 16:24:42。
+     1>项目“D:\PJ\camport3-master-orig-multithreds\camport3-master\sample\build\sample_common.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/PJ/camport3-master-orig-multithreds/camport3-master/sample/CMakeLists.txt
+         CMake does not need to re-run because D:/PJ/camport3-master-orig-multithreds/camport3-master/sample/build/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         D:\VS2013\VS\VC\bin\x86_amd64\CL.exe /c /I"D:\PJ\camport3-master-orig-multithreds\camport3-master\sample\..\include" /ID:\CV\opencv\build\include /ID:\CV\opencv\build\include\opencv /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"sample_common.dir\Release\\" /Fd"sample_common.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt "D:\PJ\camport3-master-orig-multithreds\camport3-master\sample\common\MatViewer.cpp" "D:\PJ\camport3-master-orig-multithreds\camport3-master\sample\common\TYThread.cpp"
+         MatViewer.cpp
+     1>D:\CV\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\CV\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\CV\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\pj\camport3-master-orig-multithreds\camport3-master\sample\common\DepthRender.hpp(196): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+         TYThread.cpp
+         正在生成代码...
+       Lib:
+         D:\VS2013\VS\VC\bin\x86_amd64\Lib.exe /OUT:"D:\PJ\camport3-master-orig-multithreds\camport3-master\sample\build\Release\sample_common.lib" /NOLOGO /MACHINE:X64  /machine:x64 sample_common.dir\Release\MatViewer.obj
+         sample_common.dir\Release\TYThread.obj
+         sample_common.vcxproj -> D:\PJ\camport3-master-orig-multithreds\camport3-master\sample\build\Release\sample_common.lib
+     1>已完成生成项目“D:\PJ\camport3-master-orig-multithreds\camport3-master\sample\build\sample_common.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.44

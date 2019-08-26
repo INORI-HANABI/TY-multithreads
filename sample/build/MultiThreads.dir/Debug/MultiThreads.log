@@ -1,0 +1,32 @@
+﻿生成启动时间为 2019/8/7 16:24:37。
+     1>项目“D:\PJ\camport3-master-orig-multithreds\camport3-master\sample\build\MultiThreads.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/PJ/camport3-master-orig-multithreds/camport3-master/sample/CMakeLists.txt
+         CMake does not need to re-run because D:/PJ/camport3-master-orig-multithreds/camport3-master/sample/build/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         D:\VS2013\VS\VC\bin\x86_amd64\CL.exe /c /I"D:\PJ\camport3-master-orig-multithreds\camport3-master\sample\..\include" /ID:\CV\opencv\build\include /ID:\CV\opencv\build\include\opencv /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"MultiThreads.dir\Debug\\" /Fd"MultiThreads.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "D:\PJ\camport3-master-orig-multithreds\camport3-master\sample\MultiThreads\main.cpp"
+         main.cpp
+     1>D:\PJ\camport3-master-orig-multithreds\camport3-master\include\TYApi.h(638): warning C4267: “=”: 从“size_t”转换到“int32_t”，可能丢失数据
+     1>D:\PJ\camport3-master-orig-multithreds\camport3-master\include\TYApi.h(640): warning C4267: “=”: 从“size_t”转换到“int32_t”，可能丢失数据
+     1>D:\PJ\camport3-master-orig-multithreds\camport3-master\include\TYApi.h(641): warning C4267: “=”: 从“size_t”转换到“int32_t”，可能丢失数据
+     1>d:\pj\camport3-master-orig-multithreds\camport3-master\sample\common\Utils.hpp(52): warning C4244: “return”: 从“time_t”转换到“uint32_t”，可能丢失数据
+     1>D:\CV\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\CV\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\CV\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\pj\camport3-master-orig-multithreds\camport3-master\sample\common\DepthRender.hpp(196): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\pj\camport3-master-orig-multithreds\camport3-master\sample\common\common.hpp(340): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\pj\camport3-master-orig-multithreds\camport3-master\sample\multithreads\../common/TYSensor.cpp(178): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\pj\camport3-master-orig-multithreds\camport3-master\sample\multithreads\../common/TYSensor.cpp(247): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\pj\camport3-master-orig-multithreds\camport3-master\sample\multithreads\../common/TYSensor.cpp(248): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\pj\camport3-master-orig-multithreds\camport3-master\sample\multithreads\../common/TYSensor.cpp(249): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\pj\camport3-master-orig-multithreds\camport3-master\sample\multithreads\../common/TYSensor.cpp(262): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\pj\camport3-master-orig-multithreds\camport3-master\sample\multithreads\../common/TYSensor.cpp(263): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\pj\camport3-master-orig-multithreds\camport3-master\sample\multithreads\../common/TYSensor.cpp(264): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         D:\VS2013\VS\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\PJ\camport3-master-orig-multithreds\camport3-master\sample\build\bin\Debug\MultiThreads.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:/CV/opencv/build/x64/vc12/lib /LIBPATH:D:/CV/opencv/build/x64/vc12/lib/Debug Debug\sample_common.lib ..\..\lib\win\hostapp\\x64\tycam.lib D:\CV\opencv\build\x64\vc12\lib\opencv_world310d.lib D:\CV\opencv\build\x64\vc12\lib\opencv_world310d.lib D:\CV\opencv\build\x64\vc12\lib\opencv_world310d.lib D:\CV\opencv\build\x64\vc12\lib\opencv_world310d.lib D:\CV\opencv\build\x64\vc12\lib\opencv_world310d.lib D:\CV\opencv\build\x64\vc12\lib\opencv_world310d.lib D:\CV\opencv\build\x64\vc12\lib\opencv_world310d.lib D:\CV\opencv\build\x64\vc12\lib\opencv_world310d.lib D:\CV\opencv\build\x64\vc12\lib\opencv_world310d.lib D:\CV\opencv\build\x64\vc12\lib\opencv_world310d.lib D:\CV\opencv\build\x64\vc12\lib\opencv_world310d.lib D:\CV\opencv\build\x64\vc12\lib\opencv_world310d.lib D:\CV\opencv\build\x64\vc12\lib\opencv_world310d.lib D:\CV\opencv\build\x64\vc12\lib\opencv_world310d.lib D:\CV\opencv\build\x64\vc12\lib\opencv_world310d.lib D:\CV\opencv\build\x64\vc12\lib\opencv_world310d.lib D:\CV\opencv\build\x64\vc12\lib\opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/PJ/camport3-master-orig-multithreds/camport3-master/sample/build/bin/Debug/MultiThreads.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/PJ/camport3-master-orig-multithreds/camport3-master/sample/build/Debug/MultiThreads.lib" /MACHINE:X64  /machine:x64 MultiThreads.dir\Debug\main.obj
+         MultiThreads.vcxproj -> D:\PJ\camport3-master-orig-multithreds\camport3-master\sample\build\bin\Debug\MultiThreads.exe
+     1>已完成生成项目“D:\PJ\camport3-master-orig-multithreds\camport3-master\sample\build\MultiThreads.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.80
